@@ -93,6 +93,7 @@
         doAfter: 1
 
   - node: intercomReinforced
+    doNotReplaceInheritingEntities: true
     actions:
     - !type:SetWiresPanelSecurity
       examine: wires-panel-component-on-examine-security-level2
