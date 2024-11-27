@@ -189,3 +189,11 @@
   wires:
   - !type:PowerWireAction
   - !type:AiInteractWireAction
+# goobstation-start - ShockTrap Wire and Suit Storage Hacking
+- type: wireLayout
+  id: SuitStorage
+  dummyWires: 1
+  wires:
+  - !type:AccessWireAction
+  - !type:ShockTrapWireAction
+# goobstation-end

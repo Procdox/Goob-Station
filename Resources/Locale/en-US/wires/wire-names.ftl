@@ -42,6 +42,9 @@ wires-board-name-spaceheater = Space Heater
 wires-board-name-jukebox = Jukebox
 wires-board-name-computer = Computer
 
+# goobstation - ShockTrap Wire and Suit Storage Hacking
+wires-board-name-suitstorage = Suit Storage
+
 # names that get displayed in the wire hacking hud & admin logs.
 
 wire-name-access = ACC

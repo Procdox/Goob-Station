@@ -295,3 +295,18 @@
     stateDoorOpen: base
     stateDoorClosed: door
   - type: LockVisuals
+# goobstation-start - ShockTrap Wire and Suit Storage Hacking
+  - type: Electrified
+    enabled: false
+    usesApcPower: false
+    requirePower: false
+  - type: UserInterface
+    interfaces:
+      enum.WiresUiKey.Key:
+        type: WiresBoundUserInterface
+  - type: WiresVisuals
+  - type: WiresPanel
+  - type: Wires
+    boardName: wires-board-name-suitstorage
+    layoutId: SuitStorage
+# goobstation-end
