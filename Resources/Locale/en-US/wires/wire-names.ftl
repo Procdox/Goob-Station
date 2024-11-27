@@ -69,3 +69,6 @@ wire-name-bomb-bolt = BOLT
 wire-name-speech = SPKR
 wire-name-listen = MIC
 wire-name-log = LOG
+
+# goobstation - ShockTrap Wire and Suit Storage Hacking
+wire-name-shock-trap = SEC
