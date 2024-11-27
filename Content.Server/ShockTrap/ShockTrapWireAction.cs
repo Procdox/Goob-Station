@@ -182,9 +182,6 @@ public sealed partial class ShockTrapWireAction : BaseWireAction
 
         WiresSystem.SetData(wire.Owner, ShockTrapWireActionKey.Pulsed, true);
         WiresSystem.StartWireAction(wire.Owner, _pulseTimeout, ShockTrapWireActionKey.PulseCancel, new TimedWireEvent(AwaitPulseCancel, wire));
-
-        if (electrocuted)
-            return;
     }
 
     public override void Update(Wire wire)
